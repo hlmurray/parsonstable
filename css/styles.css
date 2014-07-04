@@ -415,6 +415,10 @@ table {
 
 @import url(http://fonts.googleapis.com/css?family=Adamina);
 
+html {
+	color:#413e3b;
+}
+
 body {
 	background-color:#f1e8d5;
 	width:960px;
@@ -439,10 +443,31 @@ nav {
 
 nav a {
 	text-decoration: none;
-	color:#413e3b;
 	padding: 0 3.3% 0 3.3%;
+	color:#413e3b;
+}
+
+.homepage {
+	text-align:center;
+	border-bottom: double #413e3b;
 }
 
 .slideshow {
+	padding-top:1%;
+	height:466px;
+}
+
+.callout {
+	font-family:"Adamina";
+	font-size:11px;
+	padding-top:4%;
+	margin: 0 auto;
+	letter-spacing: .5px;
+	line-height:19px;
+	padding-bottom:1.786em;
+	max-width:625px;
+}
+
+.callout__footer {
 	padding-top:1%;
 }
