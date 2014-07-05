@@ -425,6 +425,24 @@ body {
 	margin:0 auto;
 }
 
+.clearfix:before,
+.clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+
+.group {
+	margin:0 auto;
+	max-width: 90em;
+	width:93.75%;
+}
+
 header {
 	text-align:center;
 	margin-top:3%;
@@ -470,4 +488,28 @@ nav a {
 
 .callout__footer {
 	padding-top:1%;
+}
+
+footer {
+	padding:3%;
+}
+footer article {
+	-webkit-box-sizing: border-box;
+	width: 33%;
+	float: left;
+	padding-left:5%;
+}
+footer h1 {
+	text-transform: uppercase;
+	font-family:"Adamina";
+	font-size:14px;
+}
+
+.alpha {
+	border-right: 1px solid #413e3b;
+}
+
+.omega {
+	float:right;
+	border-left: 1px solid #413e3b;
 }
