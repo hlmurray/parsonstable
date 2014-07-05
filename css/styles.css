@@ -413,7 +413,19 @@ table {
 =============================== */
 
 
-@import url(http://fonts.googleapis.com/css?family=Adamina);
+@font-face {
+  font-family: 'Adamina';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Adamina'), local('Adamina-Regular'), url(http://themes.googleusercontent.com/static/fonts/adamina/v5/frs4nX1GnurwzHktbp1qJALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Muli'), url(http://themes.googleusercontent.com/static/fonts/muli/v5/minRpKQdEvXRRS8oAbAtWvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
 
 html {
 	color:#413e3b;
@@ -461,7 +473,7 @@ nav {
 
 nav a {
 	text-decoration: none;
-	padding: 0 3.3% 0 3.3%;
+	margin: 0 3.36% 0 3.36%;
 	color:#413e3b;
 }
 
@@ -482,27 +494,43 @@ nav a {
 	margin: 0 auto;
 	letter-spacing: .5px;
 	line-height:19px;
-	padding-bottom:1.786em;
+	padding-bottom:1%;
 	max-width:625px;
 }
 
 .callout__footer {
 	padding-top:1%;
+	height:55px;
 }
 
 footer {
 	padding:3%;
 }
+
 footer article {
 	-webkit-box-sizing: border-box;
 	width: 33%;
 	float: left;
 	padding-left:5%;
 }
-footer h1 {
+
+footer header h1 {
+	text-align:left;
 	text-transform: uppercase;
 	font-family:"Adamina";
-	font-size:14px;
+	font-size:12px;
+}
+
+footer article p {
+	font-family:"Adamina";
+	font-size:11px;
+	line-height:6px;
+	letter-spacing:.5px;
+}
+
+footer article p a {
+	text-decoration: none;
+	color:#413e3b;
 }
 
 .alpha {
