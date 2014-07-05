@@ -427,6 +427,13 @@ table {
   src: local('Muli'), url(http://themes.googleusercontent.com/static/fonts/muli/v5/minRpKQdEvXRRS8oAbAtWvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
 }
 
+@font-face {
+  font-family: 'PFDinDisplayPro-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PFDinDisplayPro-Bold'), url(fonts/PFDinDisplayPro-Bold.ttf) format('ttf');
+}
+
 html {
 	color:#413e3b;
 }
@@ -460,7 +467,7 @@ header {
 	margin-top:3%;
 }
 
-nav {
+.top{
 	font-family:"Adamina";
 	font-size:14px;
 	letter-spacing:.5px;
@@ -471,7 +478,7 @@ nav {
 	text-transform: uppercase;
 }
 
-nav a {
+.top a {
 	text-decoration: none;
 	margin: 0 3.36% 0 3.36%;
 	color:#413e3b;
@@ -519,6 +526,14 @@ footer header h1 {
 	text-transform: uppercase;
 	font-family:"Adamina";
 	font-size:12px;
+}
+
+.reservations {
+  font-family:"PFDinDisplayPro-Bold";
+  text-transform: uppercase;
+  font-size:11px;
+  color:white;
+  background-color:#414042;
 }
 
 footer article p {
