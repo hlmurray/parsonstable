@@ -516,6 +516,9 @@ footer {
 
 footer article {
 	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
 	width: 33%;
 	float: left;
 	padding-left:5%;
@@ -533,14 +536,20 @@ footer header h1 {
   text-transform: uppercase;
   font-size:10px;
   letter-spacing: .5px;
-  color:white;
+  color:#f1e8d5;
   background-color:#414042;
   display:inline;
-  padding:2px;
+  padding: 4px 11px 3px 11px;
+  vertical-align: super;
 }
 
 .social {
   display:inline;
+  padding-left: 6px;
+}
+
+.social a {
+  padding-left:2px;
 }
 
 footer article p {
