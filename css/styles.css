@@ -535,12 +535,12 @@ footer header h1 {
   font-family:"PFDinTextCondPro-Medium";
   text-transform: uppercase;
   font-size:10px;
-  letter-spacing: .5px;
+  letter-spacing: 1.5px;
   color:#f1e8d5;
   background-color:#414042;
   display:inline;
   padding: 4px 11px 3px 11px;
-  vertical-align: super;
+  vertical-align: middle;
 }
 
 .social {
@@ -550,6 +550,11 @@ footer header h1 {
 
 .social a {
   padding-left:2px;
+}
+
+.fa {
+  color: #413e3b;
+  height:17px;
 }
 
 footer article p {
