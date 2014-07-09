@@ -1,0 +1,182 @@
+// styles.scss
+
+/* The Parson's Table
+designed by Meaghan Murray
+developed by Hannah Murray */
+
+@font-face {
+  font-family: 'Adamina';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Adamina'), local('Adamina-Regular'), url(http://themes.googleusercontent.com/static/fonts/adamina/v5/frs4nX1GnurwzHktbp1qJALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Muli'), url(http://themes.googleusercontent.com/static/fonts/muli/v5/minRpKQdEvXRRS8oAbAtWvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'PFDinTextCondPro-Medium';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PFDinTextCondPro-Medium'), url(fonts/PFDinTextCondPro-Medium.ttf) format('ttf');
+}
+
+html {
+	color: #414042;
+}
+
+body {
+	background-color: #f1e8d5;
+	width:960px;
+	margin:0 auto !important;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+
+.group {
+	margin:0 auto;
+	max-width: 90em;
+	width:93.75%;
+}
+
+header {
+	text-align:center;
+	margin-top:3%;
+}
+
+.top {
+	text-transform: uppercase;
+    text-align:center;
+	font-family:"Adamina";
+    font-size:14px;
+	letter-spacing:.5px;
+	margin-top:4%;
+	border-bottom: double #414042;
+	padding-bottom:1%;
+	a {
+		text-decoration: none;
+		margin: 0 3.36% 0 3.36%;
+		color:#414042;
+	}
+}
+
+.homepage {
+	text-align:center;
+	border-bottom: double #414042;
+}
+
+.slideshow {
+	padding-top:1%;
+	height:466px;
+}
+
+.callout {
+	font-family:"Adamina";
+	font-size:11px;
+	padding-top:4%;
+	margin: 0 auto;
+	letter-spacing: .5px;
+	line-height:19px;
+	padding-bottom:1%;
+	max-width:625px;
+}
+
+.callout__footer {
+	padding-top:1%;
+	height:55px;
+}
+
+footer {
+	padding:3%;
+	article {
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  -o-box-sizing: border-box;
+	  box-sizing: border-box;
+	  width: 33%;
+	  float: left;
+	  padding-left:5%;
+	  p {
+	  	font-family:"Adamina";
+		font-size:11px;
+		line-height:6px;
+		letter-spacing:.5px;
+		a {
+			text-decoration: none;
+			color:#414042;
+		}
+	  }
+	  a {
+	  	text-decoration:none;
+	  }
+	}
+	header {
+		h1 {
+			text-align:left;
+            text-transform: uppercase;
+			font-family:"Adamina";
+            font-size:12px;
+		}
+	}
+}
+
+.button {
+  font-family:"PFDinTextCondPro-Medium";
+  font-size:10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color:#f1e8d5;
+  background-color:#414042;
+  display:inline;
+  padding: 4px 11px 3px 11px;
+  vertical-align: middle;
+  &:hover {
+  	color: #414042;
+  	background-color:#f1e8d5;
+  }
+}
+
+.social {
+  display:inline;
+  padding-left: 6px;
+  a {
+  	padding-left:2px;
+  }
+}
+
+.fa {
+  color: #414042;
+  height:17px;
+  &.fa-facebook:hover {
+  	color:#3B5998;
+  }
+  &.fa-twitter:hover {
+  	color:#00ACED;
+  }
+  &.fa-instagram:hover {
+  	color:#517FA4;
+  }
+}
+
+.alpha {
+	border-right: 1px solid #414042;
+}
+
+.omega {
+	float:right;
+	border-left: 1px solid #414042;
+}
